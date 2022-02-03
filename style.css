@@ -56,7 +56,7 @@ header {
 }
 
 .sezione1 {
-  height: 500px;
+  height: 561px;
   background-color: lightblue;
 }
 
@@ -64,26 +64,37 @@ header {
   margin: 0 auto;
   width: 1200px;
   height: 100%;
+  padding: 30px;
 }
 
 .img-sez1 {
   background-image: url(img/jumbo.png);
-  width: 66%;
+  width: 61%;
   height: 100%;
-  background-size: cover;
-  /* margin-top: 5%; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 3%;
 }
 
 .sezione1 h1 {
-  font-size: 50px;
-  /* margin-bottom: 7px; */
+  font-size: 60px;
+  margin-bottom: 7px;
   width: 86%;
-  height: 125px;
 }
 
 .sezione1 p {
   font-size: 18px;
   width: 400px;
-  height: 5px;
   margin-top: 30px;
+  margin-bottom: 39px;
+}
+
+.sezione1 a {
+  color: white;
+  text-decoration: none;
+  padding: 9px;
+  background-color: blue;
+  margin-right: 180px;
+  margin-bottom: 20px;
+  display: block;
 }
